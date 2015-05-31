@@ -8,7 +8,7 @@ Gets that same random number every time the functon is invoked
 
 ### Goal
 
-Create a module that returns a function that will return a random function.  
+Create a module that returns a function that will return a random number.  
 work on the `secret_number.js` file.  
 make tests pass
 
