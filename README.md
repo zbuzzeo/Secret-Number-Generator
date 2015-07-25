@@ -23,8 +23,8 @@ console.log( secretNumber() ); // 611160.138156265
 console.log( secretNumber() ); // 611160.138156265 (the same number)
 
 var anotherSecretNumber = secretNumberGenerator();
-console.log( secretNumber() ); // 2899.987591230
-console.log( secretNumber() ); // 2899.987591230 (the same number)
+console.log( anotherSecretNumber() ); // 2899.987591230
+console.log( anotherSecretNumber() ); // 2899.987591230 (the same number)
 ```
 
 ## Install dependencies
