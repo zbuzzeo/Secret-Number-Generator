@@ -13,7 +13,7 @@ describe('Secret Number', function() {
 
   it('should return a random number between 0 and 1000000(inclusive)', function() {
     var generatedNumber = secretNumber();
-    generatedNumber.should.be.above(0);
+    generatedNumber.should.be.above(-1);
     generatedNumber.should.be.below(1000001);
   });
 
